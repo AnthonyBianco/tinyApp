@@ -5,6 +5,7 @@ const PORT = 8080;
 app.set("view engine", "ejs");
 
 
+
 const urlDatabase = {
   "b2xVn2": "http://www.lighthouselabs.ca",
   "9sm5xK": "http://www.google.com"
@@ -20,7 +21,6 @@ app.post("/urls", (req, res) => {
   shortURL = generateRandomString();
   urlDatabase[shortURL] = req.body.longURL;
   res.redirect(`/urls/${shortURL}`);
-  
 });
 
 
@@ -44,9 +44,17 @@ app.get("/urls/:shortURL", (req, res) => {
   res.render("urls_show", templateVars);
 });
 
+
 app.get("/u/:shortURL", (req, res) => {
   const longURL = urlDatabase[req.params.shortURL];
   res.redirect(longURL);
+});
+
+//DELETE FUNCTION
+app.post("/u/:shortURL/delete", (req, res) => {
+  delete urlDatabase[shortURL];
+  res.redirect("/urls");
+
 });
 
 app.get("/hello", (req, res) => {
