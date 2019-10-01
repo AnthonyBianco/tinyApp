@@ -16,6 +16,14 @@ const urlDatabase = {
 const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({extended: true}));
 
+//DELETE FUNCTION
+app.post("/urls/:shortURL/delete", (req, res) => {
+  let shortURL = req.params.shortURL;
+  delete urlDatabase[shortURL];
+  res.redirect("/urls");
+});
+
+
 app.post("/urls", (req, res) => {
   console.log(req.body);  // Log the POST request body to the console
   shortURL = generateRandomString();
@@ -50,12 +58,6 @@ app.get("/u/:shortURL", (req, res) => {
   res.redirect(longURL);
 });
 
-//DELETE FUNCTION
-app.post("/u/:shortURL/delete", (req, res) => {
-  delete urlDatabase[shortURL];
-  res.redirect("/urls");
-
-});
 
 app.get("/hello", (req, res) => {
   res.send("<html><body>Hello <b>World</b></body></html>\n");
