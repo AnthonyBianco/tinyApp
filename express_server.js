@@ -23,6 +23,11 @@ app.post("/urls/:shortURL/delete", (req, res) => {
   res.redirect("/urls");
 });
 
+//EDIT FUNCTION
+app.post("/urls/:shortURL", (req, res) => {
+  urlDatabase[req.params.shortURL] = req.body.longURL;
+  res.redirect("/urls");
+});
 
 app.post("/urls", (req, res) => {
   console.log(req.body);  // Log the POST request body to the console
