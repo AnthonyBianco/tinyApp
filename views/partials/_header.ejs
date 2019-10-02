@@ -10,5 +10,33 @@
         <a class="nav-item nav-link" href="/urls/new">Create New URL</a>
       </div>
     </div>
+    <% if(username === undefined){ %>
+      <form class="form-inline" action="/login" method="POST">
+        <div class="form-group mb-2">
+          <label for="Username"><%= username %></label>
+          <input class="form-control" type="text" name="username" placeholder="Username" style="width: 300px;">
+          <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+      </form>
+    <% } else { %>  
+      <h6>Logged in as:</h6>
+      <form class="form-inline" action="/logout" method="POST">
+        <div class="form-group mb-2">
+          <label style="margin-right: 1rem" for="Username"><%= username %></label>
+          <button type="submit" class="btn btn-primary">Logout</button>
+        </div>
+      </form>
+   <% } %>
+    
+    
   </nav>
 </header>
+
+
+
+      <!-- The form should contain:
+
+      a single text input with name="username"
+      a submit button to submit the form
+      Users will type in any username into this form in order to "sign in" for now.
+      Since the POST route does not exist yet, we expect that submission of the form will result in a server error. -->
