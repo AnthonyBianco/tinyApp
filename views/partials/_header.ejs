@@ -8,21 +8,30 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="/urls">My URLs</a>
         <a class="nav-item nav-link" href="/urls/new">Create New URL</a>
+        
+        <!-- THIS IS MY LOGIN LINK-->
+        <a class="nav-item nav-link" href="/loginFile">LOGIN</a>
+         <!-- THIS IS MY LOGIN LINK-->
+          
+         <!-- THIS IS MY REGISTER LINK-->
+        <a class="nav-item nav-link" href="/register">REGISTER</a>
+        <!-- THIS IS MY REGISTER LINK-->
+
       </div>
     </div>
-    <% if(username === undefined){ %>
-      <form class="form-inline" action="/login" method="POST">
+    <!-- IF USER NOT LOGGED IN DISPLAY -->
+    <% if(user_id === undefined){ %>
+      <form class="form-inline" action="/loginFile" method="POST">
         <div class="form-group mb-2">
-          <label for="Username"><%= username %></label>
-          <input class="form-control" type="text" name="username" placeholder="Username" style="width: 300px;">
-          <button type="submit" class="btn btn-primary">Login</button>
+          <label for="Username"><%= user_id %></label>
         </div>
       </form>
-    <% } else { %>  
+      <!--  ELSE USER LOGGED IN DISPLAY -->
+      <% } else { %>  
       <h6>Logged in as:</h6>
       <form class="form-inline" action="/logout" method="POST">
         <div class="form-group mb-2">
-          <label style="margin-right: 1rem" for="Username"><%= username %></label>
+          <label style="margin-right: 1rem" for="Username"><%= user_id.email %></label>
           <button type="submit" class="btn btn-primary">Logout</button>
         </div>
       </form>
@@ -32,7 +41,7 @@
   </nav>
 </header>
 
-
+<!-- You will not be able to see this text. -->
 
       <!-- The form should contain:
 
