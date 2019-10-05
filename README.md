@@ -9,7 +9,9 @@ TinyApp is a full stack web application built with Node and Express that allows 
 !["screenshot description"](/docs/homepage.png)
 ## This is the Login Page:
 !["screenshot description"](/docs/loginPage.png)
-## Let's create some URLs!!
+## Let's create a URL:
+!["screenshot description"](/docs/createAUrl.png)
+## Let's create more URLs!!
 !["screenshot description"](/docs/shortUrls.png)
 ## Let's click one!
 !["screenshot description"](/docs/google.png)
