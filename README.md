@@ -10,11 +10,11 @@ Have you ever wanted to post a link to a news article, online product, or some e
 
 https://www.amazon.ca/Berserker-Amon-Amarth/dp/B07NRF2FHC/ref=sr_1_1?crid=1Z2W4IJ3CUHMK&keywords=amon+amarth&qid=1570305610&sprefix=amon+%2Caps%2C190&sr=8-1
 
-Well TinyApp take fix that! TinyApp allows you to create a short URL that you can use for social media posts:
+Well TinyApp can fix that! TinyApp allows you to create a short URL that you can use for social media posts:
 
 Instead of, 
 
-"Hey guys, I just saw this awesome band last night. Check out there album by clicking this link: https://www.amazon.ca/Berserker-Amon-Amarth/dp/B07NRF2FHC/ref=sr_1_1?crid=1Z2W4IJ3CUHMK&keywords=amon+amarth&qid=1570305610&sprefix=amon+%2Caps%2C190&sr=8-1
+"Hey guys, I just saw this awesome band last night. Check out there album by clicking here: https://www.amazon.ca/Berserker-Amon-Amarth/dp/B07NRF2FHC/ref=sr_1_1?crid=1Z2W4IJ3CUHMK&keywords=amon+amarth&qid=1570305610&sprefix=amon+%2Caps%2C190&sr=8-1
 "
 You can post:
 
