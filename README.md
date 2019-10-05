@@ -24,7 +24,7 @@ Follow along below.
 ## Let's login:
 !["screenshot description"](/docs/loginPage.png)
 ## Let's create a URL:
-!["screenshot description"](/docs/createUrl.png)
+!["screenshot description"](/docs/createAUrl.png)
 ## Let's check out our URLs page:
 !["screenshot description"](/docs/finalAmon2.png)
 ## Let's click EDIT and then try it!
