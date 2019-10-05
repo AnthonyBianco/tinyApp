@@ -6,7 +6,7 @@ TinyApp is a full stack web application built with Node and Express that allows 
 
 What does that mean? 
 
-Have you ever wanted to post a link to a news article, online product, or some else on your social media account, but the link you copied turns out to look something like this:
+Have you ever wanted to post a link to a news article, online product, or something else on your social media account, but the link you copied turns out to look like this:
 
 https://www.amazon.ca/Berserker-Amon-Amarth/dp/B07NRF2FHC/ref=sr_1_1?crid=1Z2W4IJ3CUHMK&keywords=amon+amarth&qid=1570305610&sprefix=amon+%2Caps%2C190&sr=8-1
 
