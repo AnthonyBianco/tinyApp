@@ -7,7 +7,7 @@ TinyApp is a full stack web application built with Node and Express that allows 
 
 ## This is the Home Page:
 !["screenshot description"](/docs/homepage.png)
-## Let's create an account:
+## Let's create an account by clicking Register:
 !["screenshot description"](/docs/createAccount.png)
 ## Let's login:
 !["screenshot description"](/docs/loginPage.png)
