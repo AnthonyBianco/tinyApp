@@ -6,7 +6,7 @@ TinyApp is a full stack web application built with Node and Express that allows 
 
 <<<<<<< HEAD
 !["screenshot description"](/docs/homepage.png)
-!["screenshot description"](#/docs/shortUrls.png)
+!["screenshot description"](/docs/shortUrls.png)
 
 
 ## Dependencies
