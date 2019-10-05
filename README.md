@@ -19,7 +19,7 @@ You can post:
 
 "Hey guys... yuebar (shortened link)"
 
-Follow along below for a demonstration below.
+Follow along below for a demonstration.
 
 ## Final Product
 
