@@ -154,7 +154,6 @@ function checkDuplicateEmail(email){
 
 
 app.post("/register", (req, res) => {
-  console.log("email",typeof(req.body.email))
   if (req.body.email === "" || req.body.password ===""){
     res.status(400).send("Error: Email or password not entered");
   } else if (checkDuplicateEmail(req.body.email)) {

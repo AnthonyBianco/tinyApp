@@ -28,7 +28,7 @@
       </form>
       <!--  ELSE USER LOGGED IN DISPLAY -->
       <% } else { %>  
-      <h6>Logged in as:</h6>
+      <h6>Hello, <label> </label> </h6>
       <form class="form-inline" action="/logout" method="POST">
         <div class="form-group mb-2">
           <label style="margin-right: 1rem" for="Username"><%= user_id.email %></label>
